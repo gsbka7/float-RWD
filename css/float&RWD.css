@@ -143,9 +143,8 @@ ul{
     
 }
 
-.block-1 .filter ,.block-2 .filter, .block-3 .filter{
-    /* filter: blur(10px); */
-    opacity: 0.5;
+.block-1.filter ,.block-2.filter, .block-3.filter{
+    filter: blur(10px);
 }
 
 .block-2{
@@ -201,7 +200,6 @@ ul{
 .block-3:hover .img-squidward{
     background-image: url(../img/squidward-back.png);
     transition: 0.5s 0.2s;
-
 }
 
 .blocks p{
