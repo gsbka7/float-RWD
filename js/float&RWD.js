@@ -20,7 +20,7 @@ $('.three').click( function () {
 
 // })
 
-const botton = document.querySelector('.botton');
+const botton = document.getElementById('aaa');
 botton.addEventListener("touchstart", function (){
     $('.block-1').toggleClass('filter');
 
