@@ -145,6 +145,7 @@ ul{
 
 .block-1.filter ,.block-2.filter, .block-3.filter{
     filter: blur(10px);
+    
 }
 
 .block-2{
