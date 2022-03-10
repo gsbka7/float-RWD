@@ -24,4 +24,6 @@ const botton = document.getElementById('aaa');
 botton.addEventListener("touchstart", function (){
     $('.block-1').toggleClass('filter');
 
+    document.getElementById("aaa").innerText = "touchstart event!"
+
 })
