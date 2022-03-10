@@ -159,7 +159,7 @@ ul{
     
 }
 
-.spongebob, .patrick ,.squidward{
+.img-spongebob, .img-patrick ,.img-squidward{
     position: relative;
     top: 25%;
     height: 270px;
@@ -170,37 +170,36 @@ ul{
     
 }
 
-.spongebob{
+.img-spongebob{
     background-image: url(../img/spongebob-front.png);
     
 }
 
-.spongebob:hover{
+.block-1:hover .img-spongebob{
     background-image: url(../img/spongebob-back.png);
     transition: 0.5s 0.2s;
 
 }
 
-.patrick{
+.img-patrick{
     background-image: url(../img/patrick-front.png);
-    transition: 0.5s 0.2s;
 
 }
 
-.patrick:hover{
+.block-2:hover .img-patrick{
     background-image: url(../img/patrick-back.png);
     transition: 0.5s 0.2s;
 
 }
 
-.squidward{
+.img-squidward{
     background-image: url(../img/squidward-front.png);
 
 }
 
-.squidward:hover{
+.block-3:hover .img-squidward{
     background-image: url(../img/squidward-back.png);
-    transition: 1s;
+    transition: 0.5s 0.2s;
 }
 
 .blocks p{
@@ -218,19 +217,21 @@ ul{
         width: 700px;
 
     }
+
     .block-1{
         width: 100%;
         height: calc(50% - 5px);
         margin-bottom: 10px;
 
     }
+
     .block-2 ,.block-3{
         width: calc(50% - 5px);
         height: calc(50% - 5px);
 
     }
-
-    .spongebob, .patrick ,.squidward{
+    
+    .img-spongebob, .img-patrick ,.img-squidward{
         top: 10%;
 
     }
@@ -246,20 +247,24 @@ ul{
         clear: both;
 
     }
+
     .navbar{
         width: 100%;
         height: 80px;
 
     }
+
     .content{
         width: 100%;
         height: calc(100% - 80px);
     }
+
     .blocks{
         width: 90%;
         height: 90%;
 
     }
+
     .logo{
         position: relative;
         top: 15px;
@@ -270,18 +275,23 @@ ul{
         margin: 0;
         
     }
+
     ul{
         float: right;
         padding-top: 10px;
+
     }
+
     .link{
         display: inline-block;
         font-size: 25px;
         padding: 10px;
       
     }
+
     .link:last-child{
         margin-right: 40px;
+
     }
 
     .blocks p{
@@ -296,6 +306,7 @@ ul{
         padding: 10px 2px;
       
     }
+
     .link:last-child{
         margin-right: 10px;
     }
@@ -306,9 +317,11 @@ ul{
     .meun, .botton{
         display: block;
     }
+
     .link{
         display: none;
     }
+
     .logo{
         position: relative;
         top: 15px;
@@ -320,31 +333,37 @@ ul{
         text-align:center
 
     }
+
     .blocks{
         width: 100%;
         height: 100%;
 
     }
+
     .block-1, .block-2, .block-3{
         border-radius: 0;
         
     }
+
     .block-1{
         width: 100%;
         height: 34%;
         margin: 0;
        
     }
+
     .block-2 ,.block-3{
         width: 100%;
         height: 33%;
 
     }
-    .spongebob, .patrick ,.squidward{
+
+    .img-spongebob, .img-patrick ,.img-squidward{
         top: 5%;
         height: 250px;
 
     }
+    
     .blocks p{
         top: -5%;
         font-size: 23px;
