@@ -143,8 +143,12 @@ ul{
     
 }
 
-.block-1.filter ,.block-2.filter, .block-3.filter{
+.block-1 .filter ,.block-2 .filter, .block-3 .filter{
     filter: blur(10px);
+}
+
+.block-1 .test1{
+    opacity: 0.5;
 }
 
 .block-2{
