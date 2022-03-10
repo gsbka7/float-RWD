@@ -13,18 +13,9 @@ $('.three').click( function () {
 
 })
 
-// $('.botton').click( function () {
-//     $('.block-1').toggleClass('filter');
-//     $('.block-2').toggleClass('filter');
-//     $('.block-3').toggleClass('filter');
-
-// })
-
-const botton = document.getElementById('aaa');
-botton.addEventListener("touchstart", function (){
+$('.botton').click( function () {
     $('.block-1').toggleClass('filter');
-
-    document.getElementById("aaa").innerText = "touchstart event!"
-    console('dasfdsf')
+    $('.block-2').toggleClass('filter');
+    $('.block-3').toggleClass('filter');
 
 })

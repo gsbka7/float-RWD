@@ -144,10 +144,7 @@ ul{
 }
 
 .block-1 .filter ,.block-2 .filter, .block-3 .filter{
-    filter: blur(10px);
-}
-
-.block-1 .test1{
+    /* filter: blur(10px); */
     opacity: 0.5;
 }
 
