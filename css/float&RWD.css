@@ -200,6 +200,7 @@ ul{
 .block-3:hover .img-squidward{
     background-image: url(../img/squidward-back.png);
     transition: 0.5s 0.2s;
+
 }
 
 .blocks p{
