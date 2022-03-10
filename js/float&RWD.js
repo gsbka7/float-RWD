@@ -22,6 +22,6 @@ $('.three').click( function () {
 
 const botton = document.querySelector('.botton');
 botton.addEventListener("touchstart", function (){
-    $('.block-1').toggleClass('test1');
+    $('.block-1').toggleClass('filter');
 
 })
