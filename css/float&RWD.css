@@ -23,7 +23,7 @@ body{
     position: absolute;
     top: 19px;
     right: 30px;
-    width:40px;
+    width: 40px;
     height: 40px;
     
 }
@@ -124,7 +124,7 @@ ul{
     top: 50%;
     right: 50%;
     transform: translate(50%, -50%);
-    width: 1000px;
+    width: 80%;
     height: 700px;
     
 }
@@ -215,7 +215,7 @@ ul{
 
 @media (max-width: 1410px) {
     .blocks{
-        width: 700px;
+        width: 80%;
 
     }
 
@@ -299,6 +299,16 @@ ul{
         top: 13%;
 
     }
+
+    .img-spongebob, .img-patrick ,.img-squidward{
+        height: 80%;
+
+    }
+
+    .blocks p{
+        top: -5%;
+        
+    }
 }
 
 @media (max-width: 560px) {
@@ -360,13 +370,13 @@ ul{
     }
 
     .img-spongebob, .img-patrick ,.img-squidward{
-        top: 5%;
-        height: 250px;
+        top: 15%;
+        height: 80%;
 
     }
 
     .blocks p{
-        top: -5%;
+        /* top: 5%; */
         font-size: 23px;
         
     }
